@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kaisei Tokumin', serif; 
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Sidebar */
+.sidebar {
+    width: 35%;
+    background-color: #635757; 
+    color: white;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+
+
+.profile-picture {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+}
+
+.profile-picture img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+
+.section {
+    margin-top: 10px;
+}
+
+
+.section h3 {
+    font-size: 24px;
+    color: white; 
+    font-weight: bold; 
+    margin-bottom: 10px;
+}
+
+
+.section p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #d4d4d4;
+    margin-bottom: 4px; 
+}
+
+
+/* Main content */
+.main-content {
+    width: 65%;
+    padding: 40px;
+    background-color: #f9f9f9;
+}
+
+.name-and-contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+
+.name-title {
+    text-align: left;
+    margin-top: 50px; 
+}
+
+
+.contact-info {
+    text-align: left;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.contact-info p {
+    font-size: 15px;
+    margin: 3px 0;
+}
+
+
+.contact-info img {
+    width: 30px; 
+    height: 30px; 
+    margin-right: 10px;
+    margin-top: -5px; 
+}
+
+.personal-info {
+    margin-top: 0; 
+}
+
+.personal-info h1 {
+    font-size: 48px; 
+    margin-bottom: 5px;
+}
+
+.personal-info h2 {
+    font-size: 20px; 
+    color: #070707;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 15px; 
+    margin: 3px 0;
+}
+
+.education-work {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.education,
+.work {
+    width: 48%;
+}
+
+.education, .work {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    padding-right: 2%; 
+}
+
+
+.degree-title, .work-title {
+    display: block;  
+    font-size: 16px;
+    color: #555; 
+    margin-top: 5px; 
+}
+
+.education p, .work p {
+    margin-bottom: 15px; 
+}
+
+
+.main-content h3 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.main-content {
+    width: 65%;
+    padding: 40px;
+    background-color: #E1DDDD;  
+}
+
+
+.skills {
+    margin-top: 35px; 
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+}
+
+.skills li {
+    width: 33%; 
+    margin-bottom: 20px; 
+}
+
+
+.skills h3 {
+    font-size: 24px;
+    color: #333;
+    border-bottom: 2px solid #000000;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    width: 100%; 
+    text-align: left; 
+}
+
+
+.languages {
+    margin-top: 35px; 
+}
+
+.skills ul, .languages p {
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.languages p {
+    font-size: 20px;
+    margin: 25px 0;  
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;
+}
+
+.languages .progress-container {
+    width: 90%;  
+    background-color: #ccc;  
+    height: 8px;  
+    border-radius: 5px;
+    overflow: hidden;  
+}
+
+.languages .progress-bar {
+    display: block;
+    height: 100%; 
+    background-color: #4caf50;  
+}
+
+
+.separator {
+    width: 100%;  
+    border-bottom: 2px solid #ffffff;  
+    margin-top: 5px; 
+    margin-bottom: 7%;  
+}
+
+.section ul {
+    list-style-type: disc;  
+    padding-left: 20px;  
+    margin-top: 0;  
+}
+
+.section li {
+    font-size: 16px;  
+    margin-bottom: 10px;  
+}
+
+
